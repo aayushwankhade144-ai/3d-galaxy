@@ -185,6 +185,17 @@ const galaxy =
         geometry,
         material
     );
+    // Make the galaxy look 3D
+
+galaxy.rotation.x = 0.75;
+
+galaxy.rotation.z = 0.15;
+
+// Move it behind the text
+
+galaxy.position.x = 2.5;
+
+galaxy.position.z = -1.5;
 
 scene.add(galaxy);
 
