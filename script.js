@@ -193,7 +193,7 @@ galaxy.rotation.z = 0.15;
 
 galaxy.rotation.x =
 
-    0.75 +
+    1.15 +
 
     Math.sin(time * 0.3) * 0.03;
 
