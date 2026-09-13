@@ -191,6 +191,12 @@ galaxy.rotation.x = 0.75;
 
 galaxy.rotation.z = 0.15;
 
+galaxy.rotation.x =
+
+    0.75 +
+
+    Math.sin(time * 0.3) * 0.03;
+
 // Move it behind the text
 
 galaxy.position.x = 2.5;
